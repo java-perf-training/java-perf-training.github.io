@@ -1,6 +1,6 @@
 ---
-title: 'Home'
-date: 2023-10-24
+title: 'Тренинги'
+date: 2026-01-10
 type: landing
 
 design:
@@ -10,20 +10,20 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: Оптимизация производительности приложений на JVM
+      text: Тренинги для тех, кто в ответе за свой код на production🧑🏼‍💻
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: Записаться
+        url: https://forms.yandex.ru/u/66b620c5f47e7313456e26e4/templates/
         icon: rocket-launch
       secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
+        text: Посмотреть описание
+        url: '#plan'
       announcement:
-        text: "Announcing the release of version 1."
+        text: "Открыта запись на занятия в марте"
         link:
-          text: "Read more"
-          url: "/blog/"
+          text: "Подробнее"
+          url: "https://java-rock-stars.timepad.ru/event/3654125/"
     design:
     #   spacing:
     #     padding: [0, 0, 0, 0]
@@ -34,108 +34,169 @@ sections:
         color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+          filename: grafana-cropped-b-01.png
           filters:
-            brightness: 0.5
+            brightness: 0.1
           size: cover
           position: center
-          parallax: false
-  - block: stats
+          parallax: true
+
+  # - block: stats
+  #   content:
+  #     items:
+  #       - statistic: "≈90М ₽"
+  #         description: |
+  #           Потеряли ИТ-компании в РФ
+  #           за 2024 г. на&nbsp;программных сбоях и ошибках
+  #       - statistic: "40%"
+  #         description: |
+  #           Простоев онлайн-сервисов
+  #           случаются из-за проблем производительности
+  #       - statistic: "10 часов"
+  #         description: |
+  #           Среднее время исправления performance-проблемы в&nbsp;JVM
+  #   design:
+  #     # Section background color (CSS class)
+  #     css_class: "bg-gray-100 dark:bg-gray-900"
+  #     # Reduce spacing
+  #     spacing:
+  #       padding: ["1rem", 0, "1rem", 0]
+
+  # - block: markdown
+  #   content:
+  #     title: "Эти риски можно снизить📉"
+  #     subtitle: "Даем разработчикам необходимые знания и навыки"
+  #     text: |
+  #       Если **заранее** получить необходимые знания и навыки,
+  #       чтобы при появлении проблемы **сразу** приступать к анализу и исправлению,
+  #       а не перебирать варианты во&nbsp;время пожара.
+  #   design:
+  #     columns: "1"
+  #     background:
+  #       color: "white"
+
+  - block: team-showcase
+    id: tutors
     content:
-      items:
-        - statistic: "1M+"
-          description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
-          description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
-          description: |
-            Discord community  
-            for support
+      title: Кто мы
+      subtitle: Разработчики с большим боевым опытом
+      text: Мы строили успешные высоконагруженные системы и готовы помочь в этом вам
+      user_groups:
+        - Tutors
+      sort_by: 'Params.last_name'
+      sort_ascending: false
+      # cta:
+      #   text: Join Our Team
+      #   url: /opportunities
+      #   icon: user-plus
     design:
+      show_role: true
+      show_organizations: false
+      show_interests: true
+      show_social: true
       # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      # Reduce spacing
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
+      css_class: "bg-gray-50 dark:bg-gray-900"
+
   - block: features
     id: features
     content:
-      title: Features
-      text: Build your site with blocks 🧱
+      title: Что дают тренинги?
+      text: Только самые необходимые навыки (и немножко больше)
       items:
-        - name: Optimized SEO
+        - name: Определение первопричин
           icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
+          description: Научитесь точно находить первопричину проблемы, даже если у нее множество симптомов.
+        - name: Повышение отзывчивости
           icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
+          description: Освоите приемы ускорения приложений без&nbsp;существенных доработок в прикладном коде.
+        - name: Превентивная диагностика
           icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
+          description: Узнаете, по каким признакам можно выявить потенциальные проблемы до их проявления.
+        - name: Лучшие практики
           icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
+          description: Получите множество советов по оптимизации производительности приложений на JVM.
+        - name: Признание коллег
           icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
+          description: Станете настоящим экспертом в области производительности своего проекта. 
+        - name: Грамотная архитектура
           icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+          description: Сможете без труда проектировать и&nbsp;развивать высоконагруженные системы.
+
   - block: cta-image-paragraph
-    id: solutions
+    id: plan
     content:
       items:
-        - title: Build your future-proof website
-          text: As easy as 1, 2, 3!
+        - title: Базовые техники профилирования
+          text: Основополагающий тренинг для начинающих
           feature_icon: check
           features:
-            - "Future-proof - edit your content in text files"
-            - "Website is generated by a single app, Hugo"
-            - "No JavaScript knowledge required"
+            - "Методы профилирования"
+            - "Профайлеры их особенности"
+            - "Условия и советы по применению"
           # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
+          image: base-profiling-techniques.png
           button:
-            text: Get Started
+            text: Записаться
             url: https://hugoblox.com/templates/
-        - title: Large Community
-          text: Join our large community on Discord - ask questions and get live responses
+        - title: Анализ памяти в куче
+          text: Тренинг по разбору и предотвращению OutOfMemory
           feature_icon: bolt
           features:
-            - "Dedicated support channel"
-            - "3,000+ users on Discord"
-            - "Share your site and get feedback"
+            - "Основы устройства кучи и работы GC"
+            - "Методы получения и анализа дампов памяти"
+            - "Способы обнаружения и устранения утечек"
           # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
+          image: eclipse-mat.png
           button:
-            text: Join Discord
+            text: Записаться
             url: https://discord.gg/z8wNYzb
+        - title: Мониторинг JVM
+          text: Тренинг по сбору и анализу метрик ==уже 17.03.26==
+          feature_icon: check
+          features:
+            - "Источники полезных метрик: от JMX до ОС"
+            - "Инструменты мониторинга: от консоли до Grafana"
+            - "Лучшие практики по работе с метриками"
+          image: jvm-monitoring.png
+          button:
+            text: Записаться
+            url: https://discord.gg/z8wNYzb
+
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+
   - block: testimonials
+    id: feedback
     content:
-      title: ""
+      title: "Отзывы участников"
       text: ""
       items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
+        - name: "Анна С."
+          role: "Backend-разработчик, Java/Kotlin"
           # Upload image to `assets/media/` and reference the filename here
           image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+          text: | 
+            Побывала на всех трёх занятиях в прошлом году. 
+            Курс оказался очень полезным, особенно с точки зрения практики: 
+            что, где смотреть? что вообще может дать тот или иной инструмент
+        - name: "Рустам К."
+          role: "Java-разработчик"
+          # Upload image to `assets/media/` and reference the filename here
+          image: "testimonial-1.jpg"
+          text: | 
+            Проходил осенью тренинг по потокам и памяти. Очень доступная подача материала, порадовало большое количество живых примеров в рантайме. Для меня это был первый структурированный опыт погружения в тему, позже помогло при решении боевой задачи. Рекомендую!
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["6rem", 0, 0, 0]
+
   - block: cta-card
     content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
+      title: Сделайте свой production быстрым! 🚀
+      text: Пройдите тренинги сегодня, чтобы завтра быть готовыми ко всему.
       button:
-        text: Get Started
+        text: Записаться
         url: https://hugoblox.com/templates/
     design:
       card:
