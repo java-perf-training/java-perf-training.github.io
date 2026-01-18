@@ -9,7 +9,7 @@ main:
   - name: Ведущие
     url: /#tutors
     weight: 20
-  - name: Фичи
+  - name: Ценность
     url: /#features
     weight: 30
   - name: Занятия

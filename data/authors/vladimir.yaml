@@ -1,0 +1,35 @@
+schema: hugoblox/author/v1
+#slug: vladimir
+is_owner: true
+name:
+  display: Владимир Плизга
+  # given: Vladimir
+  # family: Plizga
+  # pronunciation: Vladimir Plizga
+  # pronouns: he/him
+status:
+  icon: "👷‍♂️"
+role: Программный инженер
+bio: Любимая технология - здравый смысл
+interests:
+  - Производительность
+  - Прикладная криптография
+  - Open Source
+user_groups:
+  - Tutors
+affiliations:
+  - name: Tibbo Systems
+    url: https://aggregate.digital/
+links:
+  - icon: brands/telegram
+    url: https://t.me/Toparvion
+    label: Прямой контакт в Telegram
+  - icon: hero/home
+    url: https://toparvion.pro
+    label: Домашняя страница
+  - icon: brands/github
+    url: https://github.com/toparvion
+    label: Профиль на GitHub
+  - icon: hero/speaker-wave
+    url: 'https://t.me/stopshelf'
+    label: Публичный канал в Telegram
