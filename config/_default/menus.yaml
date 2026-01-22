@@ -9,10 +9,10 @@ main:
   - name: Ведущие
     url: /#tutors
     weight: 20
-  - name: Ценность
+  - name: Ценности
     url: /#features
     weight: 30
-  - name: Занятия
+  - name: Модули
     weight: 40
     url: /#plan
   - name: Отзывы

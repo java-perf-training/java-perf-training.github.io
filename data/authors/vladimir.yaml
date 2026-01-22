@@ -6,16 +6,19 @@ status:
   icon: "👷‍♂️"
 role: "Программный инженер"
 bio: "Любимая технология - здравый смысл"
-interests:
-  - "Производительность"
-  - "Прикладная криптография"
-  - "Open Source"
+# interests:
+#   - "Производительность"
+#   - "Прикладная криптография"
+#   - "Open Source"
 user_groups:
   - "Tutors"
 affiliations:
   - name: "Tibbo Systems"
     url: "https://aggregate.digital/"
 links:
+  - icon: "hero/at-symbol"
+    url: "mailto:vladimir.plizga@gmail.com"
+    label: "Почтовый контакт"
   - icon: "brands/telegram"
     url: "https://t.me/Toparvion"
     label: "Прямой контакт в Telegram"

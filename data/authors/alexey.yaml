@@ -5,16 +5,19 @@ status:
   icon: "🧑‍💻"
 role: "Performance-инженер"
 bio: "Выступает с докладами по Java с 2009 года"
-interests:
-  - "Оптимизация производительности"
-  - "Чистая архитектура"
-  - "Устройство JVM"
+# interests:
+#   - "Оптимизация производительности"
+#   - "Чистая архитектура"
+#   - "Устройство JVM"
 user_groups:
   - "Tutors"
-affiliations:
-  - name: "МосБиржа"
-    url: "https://www.moex.com/"
+#affiliations:
+#  - name: "МосБиржа"
+#    url: "https://www.moex.com/"
 links:
+  - icon: "hero/at-symbol"
+    url: "mailto:alexey.ragozin@gmail.com"
+    label: "Электронная почта"
   - icon: "brands/telegram"
     url: "https://t.me/ragoale"
     label: "Прямой контакт в Telegram"
