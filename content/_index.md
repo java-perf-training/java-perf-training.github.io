@@ -19,11 +19,11 @@ sections:
       secondary_action:
         text: Посмотреть описание
         url: '#plan'
-      announcement:
-        text: "Открыта запись на занятия в марте"
-        link:
-          text: "Подробнее"
-          url: "https://java-rock-stars.timepad.ru/event/3654125/"
+      # announcement:
+        # text: "Открыта запись на занятия в марте"
+        # link:
+          # text: "Подробнее"
+          # url: "https://java-rock-stars.timepad.ru/event/3654125/"
     design:
     #   spacing:
     #     padding: [0, 0, 0, 0]
@@ -40,6 +40,22 @@ sections:
           size: cover
           position: center
           parallax: true
+
+  - block: markdown
+    id: intro
+    content:
+      title: "Даём арсенал против performance-проблем"
+      # subtitle: "Мы проводим обучающие занятия для разработчиков на Java/Kotlin"
+      text: |
+        * анализ и устранение
+        * оффлайн и онлайн
+        * теория и практика
+    design:
+      columns: "1"
+      # background:
+        # color: "white"
+      # spacing:
+        # padding: [0, 0, 0, 0] 
 
   # - block: stats
   #   content:
@@ -74,6 +90,20 @@ sections:
   #     columns: "1"
   #     background:
   #       color: "white"
+
+  - block: markdown
+    id: duke-waving
+    content:
+      # title: "Эти риски можно снизить📉"
+      # subtitle: "Даем разработчикам необходимые знания и навыки"
+      text: |
+        ![Привет!](duke/waving-360.png)
+    design:
+      columns: "1"
+      # background:
+        # color: "white"
+      spacing:
+        padding: [0, 0, 0, 0]
 
   - block: team-showcase
     id: tutors
@@ -123,25 +153,14 @@ sections:
           icon: rectangle-group
           description: Сможете без труда проектировать и&nbsp;развивать высоконагруженные системы.
 
-  # - block: markdown
-  #   content:
-  #     title: "About This Section"
-  #     #text: sample text
-  #   design:
-  #     columns: "1"
-  #     #background:
-  #     #  color: "white"
-  #     spacing:
-  #       padding: [0, 0, 0, 0]
-
   - block: cta-image-paragraph
     id: plan
     content:
       items:
         - title: Базовые техники профилирования
           text: |
-            Основополагающий тренинг для начинающих.<br/>
-            **Ближайшие занятия:** ==18-20 марта==
+            **Основополагающий тренинг для начинающих**<br/>
+            **Ближайшие занятия: ==18-20 марта==**
           feature_icon: check
           features:
             - "Методы профилирования"
@@ -150,12 +169,12 @@ sections:
           # Upload image to `assets/media/` and reference the filename here
           image: base-profiling-techniques.png
           button:
-            text: Записаться на февраль
+            text: Записаться на март
             url: https://hugoblox.com/templates/
         - title: Анализ памяти в куче
           text: |
-            Тренинг по разбору и предотвращению OutOfMemory.<br/>
-            **Ближайшие занятия:** ==16-17 апреля==
+            **Тренинг по разбору и предотвращению OutOfMemory**<br/>
+            **Ближайшие занятия: ==16-17 апреля==**
           feature_icon: bolt
           features:
             - "Основы устройства кучи и работы GC"
@@ -168,8 +187,8 @@ sections:
             url: https://discord.gg/z8wNYzb
         - title: Мониторинг JVM
           text: |
-            Тренинг по сбору и анализу метрик.<br/>
-            **Ближайшее занятие:** ==15 мая==
+            **Тренинг по сбору и анализу метрик**<br/>
+            **Ближайшее занятие: ==15 мая==**
           feature_icon: check
           features:
             - "Источники полезных метрик: от JMX до ОС"
@@ -179,10 +198,23 @@ sections:
           button:
             text: Записаться на май
             url: https://discord.gg/z8wNYzb
-
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+
+  - block: markdown
+    id: duke-thumbup
+    content:
+      # title: "Эти риски можно снизить📉"
+      # subtitle: "Даем разработчикам необходимые знания и навыки"
+      text: |
+        ![Привет!](duke/thumbup-360.png)
+    design:
+      columns: "1"
+      # background:
+        # color: "white"
+      spacing:
+        padding: [0, 0, 0, 0] 
 
   - block: testimonials
     id: feedback
@@ -191,7 +223,7 @@ sections:
       text: "Посмотрите, что пишут участники прошлых тренингов"
       items:
         - name: "Анна С."
-          role: "Backend-разработчик, Java/Kotlin"
+          role: "Backend-разработчик, Java/Kotlin (октябрь 2025)"
           # Upload image to `assets/media/` and reference the filename here
           # image: "testimonial-1.jpg"
           text: | 
@@ -199,13 +231,13 @@ sections:
             Курс оказался очень полезным, особенно с точки зрения практики: 
             что, где смотреть? что вообще может дать тот или иной инструмент
         - name: "Рустам К."
-          role: "Java-разработчик"
+          role: "Java-разработчик (сентябрь 2024)"
           # Upload image to `assets/media/` and reference the filename here
           # image: "testimonial-1.jpg"
           text: | 
             Проходил осенью тренинг по потокам и памяти. Очень доступная подача материала, порадовало большое количество живых примеров в рантайме. Для меня это был первый структурированный опыт погружения в тему, позже помогло при решении боевой задачи. Рекомендую!
         - name: "Георгий Е."
-          role: "Инженер-программист (Java)"
+          role: "Инженер-программист, Java (июль 2024)"
           # Upload image to `assets/media/` and reference the filename here
           # image: "testimonial-1.jpg"
           text: | 
@@ -229,4 +261,18 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-300"
         css_style: ""
+
+  - block: markdown
+    id: duke-stand
+    content:
+      # title: "Эти риски можно снизить📉"
+      # subtitle: "Даем разработчикам необходимые знания и навыки"
+      text: |
+        ![Привет!](duke/stand-360.png)
+    design:
+      columns: "1"
+      # background:
+        # color: "white"
+      spacing:
+        padding: [0, 0, 0, 0]        
 ---

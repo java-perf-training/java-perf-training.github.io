@@ -1,30 +1,27 @@
-schema: hugoblox/author/v1
-#slug: vladimir
+schema: "hugoblox/author/v1"
 name:
-  display: Алексей Рагозин
+  display: "Алексей Рагозин"
 status:
   icon: "🧑‍💻"
-role: Performance-инженер
-bio: Выступает с докладами по Java с 2009 года
+role: "Performance-инженер"
+bio: "Выступает с докладами по Java с 2009 года"
 interests:
-  - Оптимизация производительности
-  - Чистая архитектура
-  - Устройство JVM
+  - "Оптимизация производительности"
+  - "Чистая архитектура"
+  - "Устройство JVM"
 user_groups:
-  - Tutors
+  - "Tutors"
 affiliations:
- - name: МосБиржа
-   url: https://www.moex.com/
+  - name: "МосБиржа"
+    url: "https://www.moex.com/"
 links:
-  # - icon: at-symbol
-    # url: 'mailto:alexey.ragozin@gmail.com'
-    # label: E-mail
-  - icon: brands/telegram
-    url: https://t.me/ragoale
-    label: Прямой контакт в Telegram
-  - icon: hero/home
+  - icon: "brands/telegram"
+    url: "https://t.me/ragoale"
+    label: "Прямой контакт в Telegram"
+  - icon: "hero/home"
     url: "https://blog.ragozin.info/"
-    label: Личный блог
-  - icon: brands/github
-    url: https://github.com/aragozin/
-    label: Профиль на GitHub
+    label: "Личный блог"
+  - icon: "brands/github"
+    url: "https://github.com/aragozin/"
+    label: "Профиль на GitHub"
+slug: "alexey"

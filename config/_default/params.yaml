@@ -163,7 +163,7 @@ hugoblox:
       enable: true
     # Reading time estimates
     reading_time:
-      enable: true
+      enable: false
     # Academic citations
     citations:
       style: apa # apa | mla | chicago | ieee
@@ -241,7 +241,7 @@ hugoblox:
   # Regional formatting preferences
   # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "31.01.2006" # Go time format
+    date_format: "32.01.2006" # Go time format
     time_format: "21:04"
     address_format: ru-ru
 
