@@ -159,52 +159,67 @@ sections:
       items:
         - title: Базовые техники профилирования
           text: |
-            **Основополагающий тренинг для начинающих**<br/>
+            ==1-3 апреля== 2026, ведущий: **Алексей Рагозин**<br/>
             <br/>
-            **Ближайшие занятия: ==1-3 апреля==**<br/>
-            Скачать описание модуля в ==[PDF](1.pdf)==<br/><br/>
-            **Ведущий модуля: Алексей Рагозин**
+            **<ins>[Скачать](uploads/profiling.pdf)</ins>** описание модуля в PDF.<br/>
+            Основные разделы:
           feature_icon: check
           features:
             - "Методы профилирования"
             - "Профайлеры и их особенности"
             - "Кейсы и советы по применению"
-          # Upload image to `assets/media/` and reference the filename here
-          image: base-profiling-techniques.png
+          image: screenshots/asprof.png
           button:
             text: Записаться на апрель
-            url: https://hugoblox.com/templates/
+            url: https://aragozin.timepad.ru/event/3780615/
+
         - title: Анализ памяти в куче
           text: |
-            **Тренинг по разбору и предотвращению OutOfMemory**<br/>
-            **Ближайшие занятия: ==16-17 апреля==**<br/>
+            ==16-17 апреля== 2026, ведущий: **Владимир Плизга**<br/>
             <br/>
-            **Ведущий модуля: Владимир Плизга**
+            **<ins>[Скачать](uploads/heap-dumps.pdf)</ins>** описание модуля в PDF.<br/>
+            Основные разделы:
           feature_icon: bolt
           features:
             - "Основы устройства кучи и работы GC"
             - "Методы получения и анализа дампов памяти"
             - "Способы обнаружения и устранения утечек"
-          # Upload image to `assets/media/` and reference the filename here
-          image: eclipse-mat.png
+          image: screenshots/mat.png
           button:
             text: Записаться на апрель
-            url: https://discord.gg/z8wNYzb
+            url: https://aragozin.timepad.ru/event/3780696/
+
         - title: Мониторинг JVM
           text: |
-            **Тренинг по сбору и анализу метрик**<br/>
-            **Ближайшее занятие: ==15 мая==**<br/>
+            ==15 мая== 2026, ведущий: **Владимир Плизга**<br/>
             <br/>
-            **Ведущий модуля: Владимир Плизга**
+            **<ins>[Скачать](uploads/metrics.pdf)</ins>** описание модуля в PDF.<br/>
+            Основные разделы:
           feature_icon: check
           features:
             - "Источники полезных метрик: от JMX до ОС"
             - "Инструменты мониторинга: от консоли до Grafana"
             - "Лучшие практики по работе с метриками"
-          image: jvm-monitoring.png
+          image: screenshots/grafana.png
           button:
             text: Записаться на май
-            url: https://discord.gg/z8wNYzb
+            url: https://aragozin.timepad.ru/event/3780697/
+
+        - title: JDK Flight Recorder
+          text: |
+            ==29 мая== 2026, ведущий: **Алексей Рагозин**<br/>
+            <br/>
+            **<ins>[Скачать](uploads/jfr.pdf)</ins>** описание модуля в PDF.<br/>
+            Основные разделы:
+          feature_icon: bolt
+          features:
+            - "Возможности и ограчения JFR"
+            - "Анализ JFR записей в Mission Control"
+            - "Новейшие и кастомные события"
+          image: screenshots/jmc.jpg
+          button:
+            text: Записаться на май
+            url: https://aragozin.timepad.ru/event/3780698/
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
