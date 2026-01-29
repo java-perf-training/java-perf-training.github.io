@@ -34,7 +34,7 @@ sections:
         color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: grafana-cropped-b-01.png
+          filename: grafana-tall.png
           filters:
             brightness: 0.1
           size: cover
@@ -44,7 +44,7 @@ sections:
   - block: markdown
     id: intro
     content:
-      title: "Даём арсенал против performance-проблем"
+      title: "Даём арсенал против performance-проблем ==TODO=="
       # subtitle: "Мы проводим обучающие занятия для разработчиков на Java/Kotlin"
       text: |
         * анализ и устранение
@@ -159,7 +159,7 @@ sections:
       items:
         - title: Базовые техники профилирования
           text: |
-            ==1-3 апреля== 2026, ведущий: **Алексей Рагозин**<br/>
+            ==30 марта - 1 апреля== 2026, ведущий: **Алексей Рагозин**<br/>
             <br/>
             **<ins>[Скачать](uploads/profiling.pdf)</ins>** описание модуля в PDF.<br/>
             Основные разделы:
@@ -173,7 +173,7 @@ sections:
             text: Записаться на апрель
             url: https://aragozin.timepad.ru/event/3780615/
 
-        - title: Анализ памяти в куче
+        - title: Память JVM, анализ дампов кучи и утечек памяти 
           text: |
             ==16-17 апреля== 2026, ведущий: **Владимир Плизга**<br/>
             <br/>
@@ -200,14 +200,14 @@ sections:
             - "Источники полезных метрик: от JMX до ОС"
             - "Инструменты мониторинга: от консоли до Grafana"
             - "Лучшие практики по работе с метриками"
-          image: screenshots/grafana.png
+          image: screenshots/grafana-jvm-narrow.png
           button:
             text: Записаться на май
             url: https://aragozin.timepad.ru/event/3780697/
 
-        - title: JDK Flight Recorder
+        - title: Java Flight Recorder и Mission&nbsp;Control &dash; глубокое погружение 
           text: |
-            ==29 мая== 2026, ведущий: **Алексей Рагозин**<br/>
+            ==28-29 мая== 2026, ведущий: **Алексей Рагозин**<br/>
             <br/>
             **<ins>[Скачать](uploads/jfr.pdf)</ins>** описание модуля в PDF.<br/>
             Основные разделы:
