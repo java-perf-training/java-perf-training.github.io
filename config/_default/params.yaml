@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "Тренинги по оптимизации производительности Java приложений от экспертов с многолетним опытом."
+    description: "Теория и практика от экспертов с многолетним опытом"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       github: "java-perf-training"
