@@ -110,7 +110,7 @@ sections:
     content:
       title: Ведущие
       subtitle: Разработчики с большим боевым опытом
-      text: Мы строим успешные высоконагруженные системы и готовы помочь в этом вам
+      text: Мы строим успешные высоконагруженные системы и готовы помочь в этом вам.
       user_groups:
         - Tutors
       sort_by: 'Params.last_name'
@@ -168,12 +168,12 @@ sections:
             - "Методы профилирования"
             - "Профайлеры и их особенности"
             - "Кейсы и советы по применению"
-          image: screenshots/asprof.png
+          image: screenshots/flamegraph.png
           button:
             text: Записаться на апрель
             url: https://aragozin.timepad.ru/event/3780615/
 
-        - title: Память JVM, анализ дампов кучи и утечек памяти 
+        - title: "Память JVM: анализ дампов кучи и утечек памяти"
           text: |
             ==16-17 апреля== 2026, ведущий: **Владимир Плизга**<br/>
             <br/>
@@ -205,7 +205,7 @@ sections:
             text: Записаться на май
             url: https://aragozin.timepad.ru/event/3780697/
 
-        - title: Java Flight Recorder и Mission&nbsp;Control &dash; глубокое погружение 
+        - title: "Java Flight Recorder и Mission&nbsp;Control: глубокое погружение"
           text: |
             ==28-29 мая== 2026, ведущий: **Алексей Рагозин**<br/>
             <br/>
@@ -220,6 +220,40 @@ sections:
           button:
             text: Записаться на май
             url: https://aragozin.timepad.ru/event/3780698/
+
+        - title: "JVM, Linux, контейнеры"
+          text: |
+            Ведущий: **Алексей Рагозин**<br/>
+            <br/>
+            **<ins>[Скачать](uploads/containers.pdf)</ins>** описание модуля в PDF.<br/>
+            Основные разделы:
+          feature_icon: check
+          features:
+            - "Потоки, JIT и ресурсы CPU в Linux"
+            - "Структура памяти в JVM и Linux"
+            - "Лимиты на ресурсы контейнеров с JVM"
+          image: duke/duke-n-pin.png
+          button:
+            text: Записаться в лист ожидания
+            url: https://aragozin.timepad.ru/event/3780700/
+
+        - title: "Многопоточность JVM: проблемы и их диагностика"
+          text: |
+            Ведущий: **Алексей Рагозин**<br/>
+            <br/>
+            **<ins>[Скачать](uploads/multithreading.pdf)</ins>** описание модуля в PDF. ==TODO==<br/>
+            Основные разделы:
+          feature_icon: bolt
+          features:
+            - "Дампы потоков и ресурсные метрики"
+            - "Дедлоки и гонки на ресурсах"
+            - "Утечки в многопоточных моделях"
+          image: screenshots/visual-vm-threads.jpg
+          button:
+            text: Записаться в лист ожидания
+            url: https://aragozin.timepad.ru/event/3780701/
+
+
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
