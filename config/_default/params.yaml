@@ -97,7 +97,7 @@ hugoblox:
     cta:
       enable: true
       text: "Записаться"
-      url: "https://hugoblox.com/templates/"
+      url: "https://aragozin.timepad.ru/events/"
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
