@@ -12,11 +12,14 @@ main:
   - name: Ценности
     url: /#features
     weight: 30
-  - name: Модули
+  - name: Стоимость
+    url: /#pricing
     weight: 40
+  - name: Модули
+    weight: 50
     url: /#plan
   - name: Отзывы
-    weight: 50
+    weight: 60
     url: /#feedback
   #   hasChildren: true
   # - parent: Resources
