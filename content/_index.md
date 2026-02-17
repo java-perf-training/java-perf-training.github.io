@@ -31,12 +31,12 @@ sections:
       # For full-screen, add `min-h-screen` below
       css_class: "dark"
       background:
-        color: "navy"
+        #color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: grafana-tall.png
-          filters:
-            brightness: 0.1
+          filename: duke/sport.jpg
+          #filters:
+          #  brightness: 0.1
           size: cover
           position: center
           parallax: true
@@ -158,11 +158,15 @@ sections:
     content:
       title: "Стоимость"
       text: |
-        Стоимость учебных модулей зависит от продолжительности. 
-
-        Три дня - 30 000 руб, два дня - 20 000 руб, один день - 10 000 рублей. При приобретении нескольких модулей - скидка в 20% на каждый последующий. 
+        Зависит от продолжительности учебного модуля:
         
-        Окончательная стоимость на конкретный модуль с учетом скидок доступна на странице регистрации.
+        * Три дня &dash; 30 000 ₽
+        * Два дня &dash; 20 000 ₽
+        * Один день &dash; 10 000 ₽.
+        
+        При покупке нескольких модулей на каждый следующий дается **скидка 20%**. 
+
+        Финальная стоимость каждого модуля с&nbsp;учетом скидок доступна на&nbsp;его странице [регистрации](https://aragozin.timepad.ru/events/).
     design:
       columns: "1"
 
